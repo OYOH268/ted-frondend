@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O delta</title>
+    <link rel="stylesheet" href="meuestilo.css">
+</head>
+<body>
+   
+<script src = "backend.js"></script>
+<h1 id="resultado"></h1>
+ <script>
+    let a = Number (window.prompt("digite o valor de a"))
+    let b = Number (window.prompt("digite o valor de b"))
+    let c = Number (window.prompt("digite o valor de c"))
+    let delta = calcDelta(a,b,c)
+    
+    document.getElementById("resultado").textContent = ' delta é ' + delta;
+ </script>
+</body>
+</html>
